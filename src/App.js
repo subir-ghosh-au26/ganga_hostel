@@ -8,7 +8,6 @@ import Third from './Components/Third';
 function App() {
   return (
     <div className="App">
-      <div className='Full'>
         <div className="Nav">
       <img src={logo} className="App-logo" alt="logo" />
       <h3 className='Bipard'>Bihar Institute of Public Administration and Rural Development</h3>
@@ -18,14 +17,14 @@ function App() {
       </header>
       <h1 className='ganga'>Ganga Hostel</h1>
       <div className='Floor'>
-      <Ground />
-      <First />
-      <Second />
-      <Third />
+      <div><Ground /></div>
+      <div><First /></div>
+      <div><Second /></div>
+      <div><Third /></div>
       </div>
       <footer>&copy; Copyright owned by BIPARD, All Rights Reserved.</footer>
     </div>
-    </div>
+
     
   );
 }
