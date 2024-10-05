@@ -1,0 +1,12 @@
+.Floor-Table{
+    position:fixed;
+    margin-top: 5px;
+    background-color: rgb(188, 218, 150);
+    border: 1px solid red;
+
+}
+
+th{
+    color: blue;
+    text-align: left;
+}

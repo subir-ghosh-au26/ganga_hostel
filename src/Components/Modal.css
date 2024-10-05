@@ -1,0 +1,75 @@
+/* body.active-modal {
+    overflow-y: hidden;
+} */
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    line-height: 1.2;
+    background: #66d1e4;
+    padding: 10px 10px;
+    border-radius: 15px;
+    max-width: 600px;
+    min-width: 300px;
+    height: 200px;
+}
+.modal-content > h5{
+    margin-top: 0;
+}
+.close-modal {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    padding: 1px 2px;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.close-modal:hover{
+    color: red;
+    background-color: aquamarine;
+
+}
+.Details{
+background:    #13454e;
+background:    linear-gradient(#13454e, #16f0a9);
+border-radius: 14px;
+width: 150px;
+color: azure;
+font-size: medium;
+margin-top: 20px;
+margin-left: 25%;
+border-radius: 14px;
+box-shadow: 2px 2px grey;
+text-shadow: 2px 2px #444444;
+font:normal bold 20px "Droid Serif", serif;
+}
+
+.Details:hover{
+    color:navy;
+    background:    linear-gradient(#16f0a9, #13454e);
+
+}
