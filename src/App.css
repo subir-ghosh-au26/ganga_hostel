@@ -89,7 +89,7 @@ th, td{
 }
 
 .Full{
-  background-image: url("C:\Users\om\Desktop\ganga\ganga_hostel\src\pic\1.jpg");
+  background-image: url("./pic/1.jpg");
   opacity: 0.7;
   background-size: cover;
   height: 100vh;
