@@ -1,33 +1,41 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
   pointer-events: none;
+  margin-top: 15px;
+  margin-left: 15px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+} */
+.Floor{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
+}
+.App-header {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 0;
+
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.title{
+  margin: 0;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +43,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+children{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly;
+  font-size: calc(10px + 2vmin);
+}
+
+button{
+  background-color: #61dafb;
+  padding: 15px;
+  /* margin: 5px; */
+  width: 200px;
+  border-radius: 20px;
+  border: 0px transparent;
+  text-align: center;
+  color: chocolate;
+  cursor:pointer;
+  font-weight: bolder;
+  
+}
+
+button:hover{
+  color: red;
+}
+
+table, th, td{
+  border: 2px solid blueviolet;
+  width: 50px;
+}
+th{
+  font-size: medium;
+}
+
+.Full{
+  background-image: url("D:\ganga_hostel\src\pic\1.jpg");
+  opacity: 0.7;
+  background-size: cover;
+  height: 100vh;
+}
+
+.DataView{
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  vertical-align: top;
 }
